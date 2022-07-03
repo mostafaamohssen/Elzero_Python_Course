@@ -1,0 +1,58 @@
+#1
+name="Mostafa"
+Age=20
+Country="Egypt"
+print("Hallo \'{}\', How You Doing \\ \"\"\" Your Age Is \"{}\"\"+ And Your Country Is: {}".format(name, Age, Country))
+#2
+print("Hallo \'{}\', How You Doing \\\n\"\"\" Your Age Is \"{}\"\"+\nAnd Your Contry Is: {}".format(name, Age, Country))
+#3
+name ="Elzero"
+print(name[name.find("l")])
+print(name[name.find("z")])
+print(name[name.find("o")])
+#4
+name ='Elzero'
+print(name[1:4])
+print(name[0::2])
+print(name[-2::-2])
+#5
+name ="#@#@Elzero#@#@"
+print(name.strip("#@"))
+6#
+num1 ="9"
+num2 ="15"
+num3 ="130"
+num4 ="950"
+num5 ="1500"
+print(num1.zfill(4))
+print(num2.zfill(4))
+print(num3.zfill(4))
+print(num4.zfill(4))
+print(num5.zfill(4))
+#7
+Name_one ="Osame"
+Name_two ="Osame_Elzero"
+print(Name_one.rjust(20, "@"))
+print(Name_two.rjust(20, "@"))
+#8
+name_one ="OSamA"
+name_two ="osaMA"
+print(name_one.swapcase())
+print(name_two.swapcase())
+#9
+msg = "I Love Python And Although Love Elzero Web School"
+print(msg.count("Love"))
+#10
+a ="Elzero"
+print(a.index("z"))
+#11
+msg1 = "I <3 Python And Although <3 Elzero Web School"
+print(msg1.replace("<3","Love", 1))
+#12
+msg2 = "I <3 Python And Although <3 Elzero Web School"
+print(msg2.replace("<3","Love", 2))
+#13
+name ="Mostafa"
+Age =20
+Country ="Egypt"
+print("My Name Is: {:s} And My Age Is: {:d} And My Country Is: {:s}".format(name, Age , Country))
