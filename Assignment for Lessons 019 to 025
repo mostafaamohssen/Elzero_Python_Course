@@ -1,0 +1,103 @@
+#Assignment for Lessons 19 to 20
+#1
+print(type(1))
+print(type(1.00))
+print(type(5+6j))
+#2
+myComplexNumber = 1+2j
+print("Imaginary Part Is:{}".format(myComplexNumber.imag))
+print("Real Part Is:{}".format(myComplexNumber.real))
+#3
+num = 10
+print("{:.10f}".format(num))
+#4
+num1 = 159.650
+print(int(num1))
+print(type(int(num1)))
+#5
+print(100 - 115)
+print(50 * 30)
+print(21 % 4)
+print(110 // 11)
+print(97 // 20)
+#Assignment for Lessons 021 to 023
+#1
+Friends =["Karim","Alaa","Mohammed","Arwaa","Farah"]
+print(Friends[0])
+print(Friends.pop(0))
+print(Friends[-1])
+print(Friends.pop(-1))
+#2
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+print(friends[::2])
+print(friends[1::2])
+#3
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+print(friends[1:4:1])
+print(friends[-1:-3:-1])
+#4
+friends1 = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+friends1.remove("Ali")
+friends1.remove("Mahmoud")
+friends1.append("Elzero")
+friends1.append("Elzero")
+print(friends1)
+#5
+friends2 = ["Osama", "Ahmed", "Sayed"]
+friends2.insert(0,"Alaa")
+print(friends2)
+friends2.append("Ibrahim")
+print(friends2)
+#6
+friends3 = ["Nasser", "Osama", "Ahmed", "Sayed", "Salem"]
+friends3.remove("Nasser")
+friends3.remove("Osama")
+print(friends3)
+friends3.remove("Salem")
+print(friends3)
+#7
+friends4 = ["Ahmed", "Sayed"]
+employees = ["Samah", "Eman"]
+school = ["Ramy", "Shady"]
+friends4.extend(employees)
+friends4.extend(school)
+print(friends4)
+#8
+friends5 = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+friends5.sort()
+print(friends5)
+friends5.sort(reverse=True)
+print(friends5)
+#9
+friends6 = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+print(len(friends6))
+#10
+technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
+print(technologies[4][0])
+print(technologies[4][-1])
+#Assignment for Lessons 024 to 025
+#1
+myAwesomeTupleOne = "Mostafa" ,
+print(myAwesomeTupleOne)
+print(type(myAwesomeTupleOne))
+#2
+Mytupleone = "Osama","Karim","Ibrahim"
+Mytupleone =list(Mytupleone)
+Mytupleone.insert(0,"Elzero")
+Mytupleone.remove("Osama")
+Mytupleone = tuple(Mytupleone)
+print(Mytupleone)
+print(type(Mytupleone))
+print(len(Mytupleone))
+#3
+nums = (1, 2, 3)
+letters = ("A", "B", "C")
+nums_and_letters_one = nums + letters
+print(nums_and_letters_one)
+print(len(nums_and_letters_one))
+#4
+my_tuple = (1, 2, 3, 4)
+a ,b,_,c = my_tuple
+print(a)
+print(b)
+print(c)
