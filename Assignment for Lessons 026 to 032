@@ -1,0 +1,42 @@
+#1
+Mylist = [1,2,3,3,4,5,1]
+unique_list = [1,2,3,4,5]
+print(unique_list)
+print(type(unique_list))
+print(unique_list[0:4])
+print("=" * 50)
+#2
+nums = {1, 2, 3}
+letters = {"A", "B", "C"}
+print(nums.union(letters))
+print(nums | letters)
+nums.update(letters)
+print(nums)
+print("=" * 50)
+#3
+MySet = {1,2,3}
+print(MySet)
+MySet.clear()
+print(MySet)
+MySet.add("B")
+MySet.add("A")
+print(MySet)
+MySet.discard("C")
+print(MySet)
+print("=" *50)
+#4
+mysetone = {1,2,3}
+mysettwo = {1,2,3,4,5,6}
+print(mysetone.issubset(mysettwo))
+print("=" *50)
+#5
+languages = {
+  "First":"Html Progress IS 90%",
+  "Second":"Css Progress IS 80%",
+  "Three":"Python Progress IS 60%"
+}
+print(languages['First'])
+print(languages['Second'])
+print(languages['Three'])
+languages.update({"Four":"C++ Progress IS 30%"})
+print(languages['Four'])
