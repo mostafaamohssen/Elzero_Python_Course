@@ -1,0 +1,33 @@
+# 33 --> 37
+#1
+print(bool("Mostafa"))
+print(bool(100))
+print(bool(100.00))
+print(bool(True))
+print(bool())
+print(bool(""))
+print(bool(False))
+print(bool(None))
+print("=" * 50)
+#2
+html = 70
+css = 60
+python = 80
+print(html > 50 and css > 50 and python > 50)
+print("=" * 50)
+#3
+num_one = 10
+num_two = 20
+num = 20
+print(num > num_one)
+print(num > num_two ,num_one)
+print("=" * 50)
+#4
+num_One = 10
+num_Two = 20
+result = num_One + num_Two
+print(result)
+print(result**3)
+print(result**3 % 26000)
+print(result**3 % 26000 / 5)
+print(type(str(result**3 % 26000 / 5)))
