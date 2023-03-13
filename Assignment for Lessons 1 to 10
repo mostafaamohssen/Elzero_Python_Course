@@ -1,19 +1,18 @@
-# This Is My Information About Me
-# First Assignment
-Name = "Mostafa"
-Age  = "20"
+# 1
+#Start my journey into the world of Python with my first assignment
+#2 & 3
+name = "Mostafa"
+Age = "20"
 Country = "Egypt"
-# Second Assignment
-print(Name)
+print(name)
 print(Age)
 print(Country)
-Mystring = "Hallo,My Name Is Mostafa"
-mySTring = "And Iam 20 Years Old "
-My_string ="and I Live in Egypt"
-# Third Assignment
-print(Mystring + "" +mySTring + "" +My_string)
-# Fourth Assignment
-print(type("Name"))
-print(type("Age"))
-print(type("Country"))
-# Fifth Assignment
+#4
+myString = "Hello,My Name Is Mostafa"
+Mystring = "And Iam 20 Years Old"
+my_string = "and I Live in Egypt."
+print(myString +" " +Mystring +" "+ my_string)
+#5
+print(type(name))
+print(type(Age))
+print(type(Country))
